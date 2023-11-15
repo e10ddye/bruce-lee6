@@ -1,0 +1,58 @@
+img{
+    overflow: auto;
+    width: 260px;
+}
+
+h1.titulo-galeria{
+    color: black;
+    text-shadow: 1px 2px 2px white, 0 0 25px red, 0 0 5px red;
+    text-align: center;
+}
+
+.galeria-principal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    
+}
+
+@media (max-width:1200px){
+    .galeria-principal{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width:824px){
+    .galeria-principal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.poster{
+    margin-bottom: 24px;
+    width: 260px;
+   
+}
+
+h2{
+    color: black;
+    text-shadow: 1px 2px 2px white, 0 0 25px red, 0 0 5px red;
+    text-align: center;
+}
+
+.video1{
+    margin-left: 410px;
+}
+
+.video2{
+    margin-left: 410px;
+}
+
+.video3{
+    margin-left: 410px;
+}
+
+.video4{
+    margin-left: 410px;
+}

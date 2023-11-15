@@ -1,0 +1,104 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: capitalize;
+    text-shadow:1px 2px 2px rgb(255, 115, 0), 0 0 25px rgb(245, 245, 130), 0 0 5px rgb(255, 115, 0); ;
+  
+}
+.main-menu{
+    display: flex;
+    margin: 0 64px 0 auto;
+    width: 20%;
+    justify-content: space-between;
+    gap: 12px;
+    list-style: none;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.hero img{
+    grid-column: 1 / 2;
+}
+
+.hero h1{
+    grid-column: 2 / 3;
+}
+
+.main-menu li a{
+    text-decoration: none;
+    color: azure;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+b{
+    color: black;
+    text-shadow: 1px 2px 2px white, 0 0 25px black, 0 0 5px white;
+}
+
+.biografia{
+    background-image: url(img2/3.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-attachment: fixed;
+    background-size: 500px;
+    
+}
+
+p{
+    color:white;
+    text-shadow: 1px 2px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.contenedor2{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mas-info{
+    background-image: url(img2/El5AC1vWMAItZV1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: 800px;
+}
+
+
+body{
+    background-color: black;
+}
+
+h4{
+    color: azure;
+}
+
+h2{
+    color: azure;
+    
+}
+
+.t-v{
+    color: black;
+    text-align: center;
+    text-shadow:1px 2px 2px rgb(255, 115, 0), 0 0 25px rgb(245, 245, 130), 0 0 5px rgb(255, 115, 0); ;
+}
+
+.video5{
+    margin-left:310px ;
+}
+
+h3{
+    color: white;
+}
+ P{
+    background-color:rgba(0, 0, 0, 0.103) ;
+    
+ }
